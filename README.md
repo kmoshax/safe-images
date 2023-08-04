@@ -20,12 +20,13 @@ npm install safe-image
 ```
 
 ## Usage
+Import Package:
 ```js
 const SafeImage = require('safe-image');
-
 const safeImage = new SafeImage();
-
-// Example usage with URL
+```
+Usage with URL:
+```js
 const imageURL = 'https://example.com/path/to/image.jpg';
 
 safeImage.detectFromURL(imageURL)
@@ -35,8 +36,9 @@ safeImage.detectFromURL(imageURL)
   .catch((error) => {
     console.error('Error:', error.message);
   });
-
-// Example usage with image file (Buffer)
+```
+Usage with image file (Buffer):
+```js
 const fs = require('fs');
 const imageFilePath = 'path/to/your/image.jpg';
 const imageBuffer = fs.readFileSync(imageFilePath);
