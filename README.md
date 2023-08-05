@@ -7,7 +7,7 @@
 
   </p>
   <a href="https://discordapp.com/users/827661251421011969"> <img src="https://github.com/kmoshax/safe-image/blob/main/assets/licence.png?raw=true"> </a>
-
+<br/>
 
 A Node.js package for detecting NSFW (Not Safe For Work) content in images using the SmartClick AI NSFW Detection API.
 
