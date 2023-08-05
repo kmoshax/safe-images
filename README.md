@@ -30,8 +30,8 @@ Usage with URL:
 const imageURL = 'https://example.com/path/to/image.jpg';
 
 safeImage.detectFromURL(imageURL)
-  .then((isSafe) => {
-    console.log('Is Safe:', isSafe);
+  .then((result) => {
+    console.log('Not Safe:', result);
   })
   .catch((error) => {
     console.error('Error:', error.message);
@@ -44,8 +44,8 @@ const imageFilePath = 'path/to/your/image.jpg';
 const imageBuffer = fs.readFileSync(imageFilePath);
 
 safeImage.detectFromFile(imageBuffer)
-  .then((isSafe) => {
-    console.log('Is Safe:', isSafe);
+  .then((result) => {
+    console.log('Not Safe:', result);
   })
   .catch((error) => {
     console.error('Error:', error.message);
