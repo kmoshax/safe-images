@@ -1,0 +1,32 @@
+{
+  "name": "safe-images",
+  "version": "1.0.20",
+  "description": "Safe Image Package To Check Images Safty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "safe-images",
+    "nsfw",
+    "guard",
+    "discord",
+    "arab",
+    "arabic",
+    "kmosha"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmoshax/safe-images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmoshax/safe-images/issues"
+  },
+  "homepage": "https://github.com/kmoshax/safe-images/",
+  "author": "kmosha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "form-data": "^4.0.0"
+  }
+}
