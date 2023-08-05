@@ -2,11 +2,11 @@
 # Safe-Image - NSFW Detection Package
   <p>
  <a href="https://github.com/arosteam"><img src="https://img.shields.io/static/v1?label=powered%20by&message=KmoSha&color=000000&style=for-the-badge&logo=accenture&logoColor=fff"/></a>
- <a href="https://www.npmjs.com/package/editor-canvas"><img src="https://img.shields.io/npm/v/safe-image.svg?style=for-the-badge" alt="NPM version" /></a>
+ <a href="https://www.npmjs.com/package/editor-canvas"><img src="https://img.shields.io/npm/v/safe-image.svg?style=for-the-badge&color=4287f5" alt="NPM version" /></a>
  <a href="https://www.npmjs.com/package/editor-canvas"><img src="https://img.shields.io/npm/dt/editor-canvassafe-image.svg?maxAge=3600&style=for-the-badge" alt="NPM downloads" /></a>
 
   </p>
-
+  <a href="https://discordapp.com/users/827661251421011969"> <img src="https://github.com/kmoshax/safe-image/blob/main/assets/licence.png?raw=true"> </a>
 
 
 A Node.js package for detecting NSFW (Not Safe For Work) content in images using the SmartClick AI NSFW Detection API.
