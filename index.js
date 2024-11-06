@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 const FormData = require("form-data");
 
-const DEFAULT_API_KEY = "c98dc592f9msh2004666c82a805dp1266d4jsn8ce72d731ad1"; // For Eveyone :)
+const DEFAULT_API_KEY = "c98dc592f9msh2004666c82a805dp1266d4jsn8ce72d731ad1"; // For Everyone :)
 
 class safeImages {
   constructor(apiKey) {
